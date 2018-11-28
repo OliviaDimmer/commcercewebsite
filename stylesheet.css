@@ -43,11 +43,14 @@ table {
 /* stylelint-enable */
 
 html {
-
   font-family: zeitung, sans-serif;
+}
 
-  font-weight: 400;
+h1 {
 
-  font-style: normal;
+font-family: zeitung, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 2em;
 
 }
