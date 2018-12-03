@@ -54,3 +54,50 @@ font-style: normal;
 font-size: 2em;
 
 }
+
+ul {
+    background-color: #b2d4e7;
+}
+
+li {
+  float: left;
+	padding: 14px 16px;
+	color: #999a9a;
+}
+
+li a {
+	color: black;
+  text-align: center;
+}
+
+li:hover {
+    background-color: #999a9a;
+}
+
+.active	{
+	background-color: #999a9a;
+}
+
+#nav_bar	{
+	display: grid;
+	grid-template-columns: 10% auto;
+}
+
+img	{
+	max-width: 100%;
+	display: block;
+	height: auto;
+}
+
+#main_info	{
+	display: flex;
+	width: 80%;
+	margin: auto;
+}
+
+#news	{
+	width: 50%;
+}
+ #events	{
+	width: 50%;
+}
