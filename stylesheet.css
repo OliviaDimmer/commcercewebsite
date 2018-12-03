@@ -1,56 +1,66 @@
-/* <--- reset ---->  */
-/* stylelint-disable*/
-a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  vertical-align: baseline
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b2d4e7;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
-  display: block
+li {
+    float: left;
+	display: block;
+	padding: 14px 16px;
+	color: #999a9a;
 }
 
-html {
-  line-height: 1;
-  height: 100%;
+li a {
+	display: block;
+	color: black;
+    text-align: center;
+    text-decoration: none;
 }
 
-body {
-  line-height: inherit;
-  height: 100%;
+li:hover {
+    background-color: #999a9a;
 }
 
-ol, ul {
-  list-style: none
+.active	{
+	background-color: #999a9a;
 }
 
-blockquote, q {
-  quotes: none
+.font	{
+	font-family: zeitung-micro, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	color: black;
 }
 
-blockquote:after, blockquote:before, q:after, q:before {
-  content: '';
-  content: none
+#nav_bar	{
+	display: grid;
+	grid-template-columns: 10% auto;
 }
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0
+img	{
+	max-width: 100%;
+	display: block;
+	height: auto;
 }
 
-/* stylelint-enable */
-
-html {
-  font-family: zeitung, sans-serif;
+#main_info	{
+	display: flex;
+	width: 80%;
+	margin: auto;
 }
 
-h1 {
+#main_color	{
+	display: block;
+	background-color: #b2d4e7;
+}
 
-font-family: zeitung, sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 2em;
+#news	{
+	width: 50%;
+}
 
+#events	{
+	width: 50%;
 }
