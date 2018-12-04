@@ -101,6 +101,10 @@ img	{
 	height: auto;
 }
 
+.map img {
+  margin: 2em 0 2em 0;
+}
+
 section {
 margin: 0 2em 2em 2em;
 }
@@ -182,10 +186,7 @@ h3 {
 	font-weight: bold;
 }
 
-.map{
-	display: flex;
-	flex-wrap: wrap;
-}
+
 img {
 	border: 1px solid #800020;
 }
