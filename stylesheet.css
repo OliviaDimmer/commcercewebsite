@@ -244,6 +244,10 @@ and (max-width : 767px) {
   margin-bottom: 2em;
   max-width: 100%;
 }
+.cityservices {
+  display: block;
+
+}
 }
 
 
