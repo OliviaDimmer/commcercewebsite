@@ -62,6 +62,11 @@ h2 {
   margin: 2em 0 2em 0;
 }
 
+p {
+
+  font-size: 1em;
+}
+
 .nav {
     background-color: #b2d4e7;
 }
@@ -96,8 +101,7 @@ img	{
 	height: auto;
 }
 
-
-.FAQ {
+section {
 margin: 0 2em 2em 2em;
 }
 
@@ -109,7 +113,6 @@ margin: 0 2em 2em 2em;
 #main_info	{
 	display: flex;
 	width: 80%;
-	margin: auto;
 }
 
 #news	{
