@@ -163,6 +163,20 @@ footer {
     color: white;
 }
 
+.column {
+     width:30%;
+     float:left;
+}
+
+h2 {
+	color: #800020;
+	font-weight: bold;
+}
+
+h3 {
+	font-weight: bold;
+}
+
 /* Media Queries */
 
 /* Smartphones  ----------- */
