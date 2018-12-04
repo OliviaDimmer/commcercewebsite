@@ -44,15 +44,21 @@ table {
 
 html {
   font-family: zeitung, sans-serif;
+  line-height: 1.2em;
 }
 
 h1 {
-
-font-family: zeitung, sans-serif;
 font-weight: 700;
 font-style: normal;
 font-size: 2em;
+margin: 2em 0 2em 0;
 
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 2em 0 2em 0;
 }
 
 ul {
@@ -87,6 +93,10 @@ img	{
 	max-width: 100%;
 	display: block;
 	height: auto;
+}
+
+.FAQ {
+margin: 0 2em 2em 2em;
 }
 
 #main_info	{
