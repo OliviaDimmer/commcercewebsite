@@ -124,9 +124,9 @@ margin: 0 2em 2em 2em;
 
 .members	{
 	display: grid;
-	grid-template-columns: 25% 25% 25% 25%;
-	margin-left: 50px;
-	margin-right: 50px;
+  	grid-template-columns: 50% 50%;
+  	grid-column-gap: 1em;
+	margin: auto;
 }
 
 footer {
@@ -191,6 +191,43 @@ img {
 }
 .history {
 	margin: 10px;
+}
+
+.pres { grid-area: highest; }
+.vp { grid-area: lower; }
+.sec { grid-area: botleft; }
+.treas { grid-area: botmid; }
+.exec { grid-area: botright; }
+
+.officers  {
+  display: grid;
+  margin: auto;
+  grid-column-gap: 1em;
+  grid-template-areas:
+    '. highest .'
+    '. lower .'
+    'botleft botmid botright';
+}
+
+#bname1 { grid-area: n1;  }
+#bname2 { grid-area: n2;  }
+#bname3 { grid-area: n3;  }
+#bname4 { grid-area: n4;  }
+#bname5 { grid-area: n5;  }
+#bname6 { grid-area: n6;  }
+#btitle2 { grid-area: t2;  }
+#btitle3 { grid-area: t3;  }
+#btitle4 { grid-area: t4;  }
+#btitle5 { grid-area: t5;  }
+#btitle6 { grid-area: t6;  }
+
+.board  {
+  display: grid;
+  grid-column-gap: 1em;
+  margin: auto;
+  grid-template-areas:
+  'n1 n2 n3 n4 n5 n6'
+  '. t2 t3 t4 t5 t6';
 }
 
 /* Media Queries */
