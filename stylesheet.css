@@ -166,6 +166,7 @@ footer {
 .column {
      width:30%;
      float:left;
+     margin: 10;
 }
 
 h2 {
@@ -175,6 +176,22 @@ h2 {
 
 h3 {
 	font-weight: bold;
+}
+.city {
+	margin: 10px;
+}
+.map {
+	margin: 10px;
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+	
+}
+img {
+	border: 1px solid #800020;
+}
+.history {
+	margin: 10px;
 }
 
 /* Media Queries */
