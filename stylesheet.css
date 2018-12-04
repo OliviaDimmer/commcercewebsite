@@ -163,29 +163,28 @@ footer {
     color: white;
 }
 
-.column {
-     width:30%;
-     float:left;
-     margin: 10;
+.cityservices {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+
+}
+
+
 }
 
 h2 {
-	color: #800020;
 	font-weight: bold;
 }
 
 h3 {
 	font-weight: bold;
 }
-.city {
-	margin: 10px;
-}
+
 .map {
-	margin: 10px;
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
-	
+
 }
 img {
 	border: 1px solid #800020;
