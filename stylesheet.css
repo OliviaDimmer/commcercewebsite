@@ -248,6 +248,20 @@ and (max-width : 767px) {
   display: block;
 
 }
+	.officers {
+
+  display: block;
+}
+
+.board {
+
+  display: block;
+}
+
+.members {
+
+  display: block;
+}
 }
 
 
