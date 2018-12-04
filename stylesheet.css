@@ -111,3 +111,10 @@ margin: 0 2em 2em 2em;
  #events	{
 	width: 50%;
 }
+
+.members	{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	margin-left: 50px;
+	margin-right: 50px;
+}
