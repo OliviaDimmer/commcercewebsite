@@ -96,12 +96,14 @@ img	{
 	height: auto;
 }
 
+
 .FAQ {
 margin: 0 2em 2em 2em;
 }
 
 .FAQ img {
   margin-bottom: 2em;
+  max-width: 70%;
 }
 
 #main_info	{
@@ -156,4 +158,33 @@ footer {
 .fa-twitter {
     background: #55ACEE;
     color: white;
+}
+
+/* Media Queries */
+
+/* Smartphones  ----------- */
+@media only screen
+and (min-width : 320px)
+and (max-width : 767px) {
+/* Styles */
+
+.FAQ img {
+  margin-bottom: 2em;
+  max-width: 100%;
+}
+}
+
+
+/* Medium ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+/* Styles */
+}
+
+
+/* Big ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
 }
