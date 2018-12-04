@@ -186,7 +186,10 @@ h3 {
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
-
+}
+.map{
+	display: flex;
+	flex-wrap: wrap;
 }
 img {
 	border: 1px solid #800020;
